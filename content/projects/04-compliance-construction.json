@@ -1,0 +1,16 @@
+{
+  "id": 3,
+  "slug": "compliance-construction",
+  "name": "Compliance Construction",
+  "desc": "Exploring AI-assisted review of construction plans and compliance requirements.",
+  "affiliation": "Ebdesk",
+  "role": "AI Engineer",
+  "stack": ["Python", "Qwen", "Qdrant"],
+  "url": null,
+  "image": null,
+  "imageAlt": "Compliance Construction project preview",
+  "featured": false,
+  "order": 3,
+  "draft": false,
+  "isPlaceholder": true
+}

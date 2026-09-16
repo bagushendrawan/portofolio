@@ -1,0 +1,16 @@
+{
+  "id": 7,
+  "slug": "n8n",
+  "name": "N8N",
+  "desc": "Automating everyday tasks with connected, event-driven workflows.",
+  "affiliation": "Personal",
+  "role": "Fullstack Developer",
+  "stack": ["N8N", "Docker"],
+  "url": null,
+  "image": null,
+  "imageAlt": "N8N project preview",
+  "featured": false,
+  "order": 7,
+  "draft": false,
+  "isPlaceholder": true
+}

@@ -1,0 +1,16 @@
+{
+  "id": 8,
+  "slug": "document-extraction",
+  "name": "Document Extraction",
+  "desc": "Converting unstructured documents into analytics-ready records.",
+  "affiliation": "Ebdesk",
+  "role": "AI Engineer",
+  "stack": ["Python", "Qwen", "Qdrant"],
+  "url": null,
+  "image": null,
+  "imageAlt": "Document Extraction project preview",
+  "featured": false,
+  "order": 8,
+  "draft": false,
+  "isPlaceholder": true
+}

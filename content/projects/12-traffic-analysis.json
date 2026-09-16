@@ -1,0 +1,16 @@
+{
+  "id": 11,
+  "slug": "traffic-analysis",
+  "name": "Traffic Analysis",
+  "desc": "Understanding traffic patterns through computer vision.",
+  "affiliation": "Ebdesk",
+  "role": "AI Engineer",
+  "stack": ["Python", "Qwen", "Qdrant"],
+  "url": null,
+  "image": null,
+  "imageAlt": "Traffic Analysis project preview",
+  "featured": false,
+  "order": 11,
+  "draft": false,
+  "isPlaceholder": true
+}

@@ -1,0 +1,16 @@
+{
+  "id": 15,
+  "slug": "ogma-network-viz",
+  "name": "Ogma Network Viz",
+  "desc": "Exploring relationships through interactive network visualization.",
+  "affiliation": "Ebdesk",
+  "role": "Data Scientist",
+  "stack": ["Python", "PostgreSQL", "Elasticsearch"],
+  "url": null,
+  "image": null,
+  "imageAlt": "Ogma Network Viz project preview",
+  "featured": false,
+  "order": 15,
+  "draft": false,
+  "isPlaceholder": true
+}

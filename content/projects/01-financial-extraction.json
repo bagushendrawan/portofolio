@@ -1,0 +1,16 @@
+{
+  "id": 0,
+  "slug": "financial-extraction",
+  "name": "Financial Extraction",
+  "desc": "Turning complex financial documents into structured, actionable information.",
+  "affiliation": "Ebdesk",
+  "role": "AI Engineer",
+  "stack": ["Python", "Qwen", "Qdrant"],
+  "url": null,
+  "image": null,
+  "imageAlt": "Financial Extraction project preview",
+  "featured": true,
+  "order": 0,
+  "draft": false,
+  "isPlaceholder": true
+}

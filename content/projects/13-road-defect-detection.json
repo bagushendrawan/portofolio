@@ -1,0 +1,16 @@
+{
+  "id": 12,
+  "slug": "road-defect-detection",
+  "name": "Road Defect Detection",
+  "desc": "Exploring automated identification of road surface defects.",
+  "affiliation": "Ebdesk",
+  "role": "AI Engineer",
+  "stack": ["Python", "Qwen", "Qdrant"],
+  "url": null,
+  "image": null,
+  "imageAlt": "Road Defect Detection project preview",
+  "featured": false,
+  "order": 12,
+  "draft": false,
+  "isPlaceholder": true
+}

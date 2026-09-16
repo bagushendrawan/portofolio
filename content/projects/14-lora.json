@@ -1,0 +1,16 @@
+{
+  "id": 13,
+  "slug": "lora",
+  "name": "LoRA",
+  "desc": "Experimenting with efficient fine-tuning of large language models.",
+  "affiliation": "Personal",
+  "role": "AI Engineer",
+  "stack": ["Python", "Qwen", "Qdrant"],
+  "url": null,
+  "image": null,
+  "imageAlt": "LoRA project preview",
+  "featured": false,
+  "order": 13,
+  "draft": false,
+  "isPlaceholder": true
+}

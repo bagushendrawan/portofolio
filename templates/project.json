@@ -1,0 +1,16 @@
+{
+  "id": 20,
+  "slug": "my-new-project",
+  "name": "My New Project",
+  "desc": "A short description of what the project does.",
+  "affiliation": "Personal",
+  "role": "AI Engineer",
+  "stack": ["Python", "LangGraph"],
+  "url": null,
+  "image": null,
+  "imageAlt": "Screenshot of my new project",
+  "featured": false,
+  "order": 20,
+  "draft": false,
+  "isPlaceholder": false
+}

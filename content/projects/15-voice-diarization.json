@@ -1,0 +1,16 @@
+{
+  "id": 14,
+  "slug": "voice-diarization",
+  "name": "Voice Diarization",
+  "desc": "Separating speakers and structuring multi-speaker audio.",
+  "affiliation": "Ebdesk",
+  "role": "AI Engineer",
+  "stack": ["Python", "Qwen", "Qdrant"],
+  "url": null,
+  "image": null,
+  "imageAlt": "Voice Diarization project preview",
+  "featured": false,
+  "order": 14,
+  "draft": false,
+  "isPlaceholder": true
+}

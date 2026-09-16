@@ -1,0 +1,16 @@
+{
+  "id": 2,
+  "slug": "ari",
+  "name": "ARI",
+  "desc": "A welcoming digital presence for Al Rahmah International.",
+  "affiliation": "Freelance",
+  "role": "Fullstack Developer",
+  "stack": ["Next.js", "Docker"],
+  "url": "https://alrahmahinternational.org/",
+  "image": null,
+  "imageAlt": "ARI project preview",
+  "featured": true,
+  "order": 2,
+  "draft": false,
+  "isPlaceholder": true
+}

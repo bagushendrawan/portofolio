@@ -1,0 +1,16 @@
+{
+  "id": 18,
+  "slug": "procurement-analysis",
+  "name": "Procurement Analysis",
+  "desc": "Exploring procurement patterns and decision-making signals.",
+  "affiliation": "Independent",
+  "role": "Data Scientist",
+  "stack": ["Python", "PostgreSQL", "Elasticsearch"],
+  "url": null,
+  "image": null,
+  "imageAlt": "Procurement Analysis project preview",
+  "featured": false,
+  "order": 18,
+  "draft": false,
+  "isPlaceholder": true
+}

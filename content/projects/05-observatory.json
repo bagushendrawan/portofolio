@@ -1,0 +1,16 @@
+{
+  "id": 4,
+  "slug": "observatory",
+  "name": "Observatory",
+  "desc": "Bringing signals and insights together in an analytical workspace.",
+  "affiliation": "Ebdesk",
+  "role": "Data Scientist",
+  "stack": ["Python", "PostgreSQL", "Elasticsearch"],
+  "url": null,
+  "image": null,
+  "imageAlt": "Observatory project preview",
+  "featured": false,
+  "order": 4,
+  "draft": false,
+  "isPlaceholder": true
+}

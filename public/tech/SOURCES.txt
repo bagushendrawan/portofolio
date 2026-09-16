@@ -1,0 +1,3 @@
+Technology logos from Simple Icons: https://github.com/simple-icons/simple-icons
+Retrieved 2026-09-16 from develop/icons/.
+Simple Icons SVG assets are distributed under CC0-1.0. Brand trademarks remain with their respective owners.

@@ -1,0 +1,16 @@
+{
+  "id": 17,
+  "slug": "tableau-dashboard",
+  "name": "Tableau Dashboard",
+  "desc": "Communicating data through interactive dashboards.",
+  "affiliation": "Independent",
+  "role": "Data Scientist",
+  "stack": ["Python", "PostgreSQL", "Elasticsearch"],
+  "url": null,
+  "image": null,
+  "imageAlt": "Tableau Dashboard project preview",
+  "featured": false,
+  "order": 17,
+  "draft": false,
+  "isPlaceholder": true
+}

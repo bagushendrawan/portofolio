@@ -1,0 +1,16 @@
+{
+  "id": 19,
+  "slug": "diesel-subsidy-analysis",
+  "name": "Diesel Subsidy Analysis",
+  "desc": "Analyzing subsidy data to surface patterns and useful insights.",
+  "affiliation": "Independent",
+  "role": "Data Scientist",
+  "stack": ["Python", "PostgreSQL", "Elasticsearch"],
+  "url": null,
+  "image": null,
+  "imageAlt": "Diesel Subsidy Analysis project preview",
+  "featured": false,
+  "order": 19,
+  "draft": false,
+  "isPlaceholder": true
+}

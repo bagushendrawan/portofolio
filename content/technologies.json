@@ -1,0 +1,57 @@
+[
+  {
+    "name": "Python",
+    "icon": "/tech/python.svg",
+    "showOnHome": true
+  },
+  {
+    "name": "Qwen",
+    "icon": "/tech/qwen.svg",
+    "showOnHome": true
+  },
+  {
+    "name": "LangChain",
+    "icon": "/tech/langchain.svg",
+    "showOnHome": true
+  },
+  {
+    "name": "LangGraph",
+    "icon": "/tech/langgraph.svg",
+    "showOnHome": true
+  },
+  {
+    "name": "Qdrant",
+    "icon": "/tech/qdrant.svg",
+    "showOnHome": true
+  },
+  {
+    "name": "PostgreSQL",
+    "icon": "/tech/postgresql.svg",
+    "showOnHome": true
+  },
+  {
+    "name": "Elasticsearch",
+    "icon": "/tech/elasticsearch.svg",
+    "showOnHome": true
+  },
+  {
+    "name": "Docker",
+    "icon": "/tech/docker.svg",
+    "showOnHome": true
+  },
+  {
+    "name": "Next.js",
+    "icon": "/tech/nextdotjs.svg",
+    "showOnHome": true
+  },
+  {
+    "name": "Kubernetes",
+    "icon": "/tech/kubernetes.svg",
+    "showOnHome": true
+  },
+  {
+    "name": "N8N",
+    "icon": "/tech/n8n.svg",
+    "showOnHome": false
+  }
+]

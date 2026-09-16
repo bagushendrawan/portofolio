@@ -1,0 +1,16 @@
+{
+  "id": 9,
+  "slug": "political-analysis",
+  "name": "Political Analysis",
+  "desc": "Making complex election and political data easier to explore.",
+  "affiliation": "Ebdesk",
+  "role": "Data Scientist",
+  "stack": ["Python", "PostgreSQL", "Elasticsearch"],
+  "url": null,
+  "image": null,
+  "imageAlt": "Political Analysis project preview",
+  "featured": false,
+  "order": 9,
+  "draft": false,
+  "isPlaceholder": true
+}

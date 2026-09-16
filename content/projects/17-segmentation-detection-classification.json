@@ -1,0 +1,16 @@
+{
+  "id": 16,
+  "slug": "segmentation-detection-classification",
+  "name": "Segmentation, Detection, Classification",
+  "desc": "Turning visual data into useful labels, objects, and regions.",
+  "affiliation": "Ebdesk",
+  "role": "AI Engineer",
+  "stack": ["Python", "Qwen", "Qdrant"],
+  "url": null,
+  "image": null,
+  "imageAlt": "Segmentation, Detection, Classification project preview",
+  "featured": false,
+  "order": 16,
+  "draft": false,
+  "isPlaceholder": true
+}

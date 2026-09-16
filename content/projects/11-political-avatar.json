@@ -1,0 +1,16 @@
+{
+  "id": 10,
+  "slug": "political-avatar",
+  "name": "Political Avatar",
+  "desc": "Exploring conversational interfaces for political information.",
+  "affiliation": "Ebdesk",
+  "role": "AI Engineer",
+  "stack": ["Python", "Qwen", "Qdrant"],
+  "url": null,
+  "image": null,
+  "imageAlt": "Political Avatar project preview",
+  "featured": false,
+  "order": 10,
+  "draft": false,
+  "isPlaceholder": true
+}

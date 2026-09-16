@@ -1,0 +1,16 @@
+{
+  "id": 5,
+  "slug": "chronicle",
+  "name": "Chronicle",
+  "desc": "A modern web experience for stories, content, and discovery.",
+  "affiliation": "Freelance",
+  "role": "Fullstack Developer",
+  "stack": ["Next.js", "Docker"],
+  "url": "https://chronicle.co.id/",
+  "image": null,
+  "imageAlt": "Chronicle project preview",
+  "featured": false,
+  "order": 5,
+  "draft": false,
+  "isPlaceholder": true
+}
