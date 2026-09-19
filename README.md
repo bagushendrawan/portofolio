@@ -1,6 +1,28 @@
 # Bagus Hendrawan — Portfolio
 
-A standalone **Next.js App Router + React + TypeScript** portfolio. Includes the four pages, Fireside dark/light themes, saved theme preference, gentle motion, project filtering and pagination, notebook search, Markdown reading dialogs, resume, and local technology logos.
+A standalone **Next.js App Router + React + TypeScript** portfolio site for Bagus Hendrawan, an AI Engineer based in Petaling Jaya, Malaysia. It presents his background, work, and learning notes in a single, self-contained website: no database, no CMS, no API keys, and no external accounts. All content (projects, notebook lessons, and the technology list) lives in plain JSON/Markdown files under `content/`, is validated with Zod at build time, and rendered by the server into static pages.
+
+## What it looks like
+
+The design is a dark, warm "Fireside" theme (near-black `#171512` background, cream `#f4f0e7` text, burnt-orange `#e76814` accents) with a monospace eyebrow typography, an orange circuit-style "B" monogram, and gentle scroll-reveal motion. A light theme (warm cream background) is available via the sun/moon toggle in the header, and the choice is remembered between visits.
+
+**Home** — hero with a rotating role title ("AI Engineer / Data Scientist / Full Stack Developer"), a code-card monogram artwork, the technology strip, an about-summary with stats, education, work history, and a grid of selected projects.
+
+![Home page (dark theme)](docs/screenshots/home-hero-dark.png)
+
+**Projects** — "Built with purpose." intro, an auto-rotating featured-project banner, and a filterable, searchable, paginated grid (6 per page) of all 20 projects, each card showing an affiliation, description, and tech-stack tags. Clicking a card opens a detail dialog.
+
+![Projects page](docs/screenshots/projects-full-dark.png)
+
+**My Notebook** — a searchable collection of Markdown lessons grouped by topic (Orientation, Programming Foundation, …) with a topic sidebar; clicking a card opens the full lesson in a Markdown reader dialog.
+
+![Notebook page](docs/screenshots/notebook-full-dark.png)
+
+**About Me** — the person behind the projects: location, story, resume link, work history timeline, and education cards.
+
+![About page](docs/screenshots/about-full-dark.png)
+
+![Home page (light theme)](docs/screenshots/home-full-light.png)
 
 ## Run locally
 

@@ -8,7 +8,7 @@ export default function ThemeProvider({
   return (
     <Provider
       attribute="data-theme"
-      defaultTheme="dark"
+      defaultTheme="light"
       enableSystem
       storageKey="bagus-portfolio-theme"
     >
