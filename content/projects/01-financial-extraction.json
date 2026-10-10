@@ -11,14 +11,14 @@
     "Qdrant"
   ],
   "url": null,
-  "image": "/projects/financial/1.png",
+  "image": "https://bagus-s3-bucket-01.s3.ap-southeast-2.amazonaws.com/portfolio/projects/financial/1.png",
   "images": [
-    "/projects/financial/1.png",
-    "/projects/financial/2.png",
-    "/projects/financial/3.png",
-    "/projects/financial/4.png",
-    "/projects/financial/5.png",
-    "/projects/financial/6.png"
+    "https://bagus-s3-bucket-01.s3.ap-southeast-2.amazonaws.com/portfolio/projects/financial/1.png",
+    "https://bagus-s3-bucket-01.s3.ap-southeast-2.amazonaws.com/portfolio/projects/financial/2.png",
+    "https://bagus-s3-bucket-01.s3.ap-southeast-2.amazonaws.com/portfolio/projects/financial/3.png",
+    "https://bagus-s3-bucket-01.s3.ap-southeast-2.amazonaws.com/portfolio/projects/financial/4.png",
+    "https://bagus-s3-bucket-01.s3.ap-southeast-2.amazonaws.com/portfolio/projects/financial/5.png",
+    "https://bagus-s3-bucket-01.s3.ap-southeast-2.amazonaws.com/portfolio/projects/financial/6.png"
   ],
   "details": [
     "Financial Report Analysis turns dense annual reports and financial statements into structured information that is easier to inspect, compare, and use in downstream analysis.",

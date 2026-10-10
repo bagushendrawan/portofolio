@@ -126,6 +126,20 @@ The existing 20 project descriptions and testimonials remain illustrative. Repla
 
 ## Content updates and deployment
 
+### Upload images and videos to S3
+
+Put the images and videos under `public/`, then set `AWS_REGION` and `S3_BUCKET_NAME` in `.env` along with AWS credentials (or use your normal AWS credential chain). Run:
+
+```bash
+npm run media:upload
+```
+
+The command uploads all images and videos under `public/` to stable `portfolio/` keys in S3, checks that each public URL is readable, then replaces local references in site content and source files. It removes those media files from Git tracking but keeps local copies ignored by Git. The resume PDF and `docs/screenshots/` are excluded. Re-run the command after adding or changing media.
+
+The AWS identity running the command needs `s3:PutObject` on `portfolio/*` in the bucket, and the bucket must allow public `s3:GetObject` access to those objects. The command does not change AWS permissions. The two existing project videos use Git LFS. If this checkout contains LFS pointers, the command restores the real videos from the local LFS cache before upload. If those cached objects are missing, run `git lfs pull` and retry. Upload or public-access failures leave site links and Git tracking unchanged. Commit the updated content, source, `.gitignore`, `.gitattributes`, and removal of media from Git after a successful run.
+
+New project screenshots and technology logos can still be placed under `public/` locally and referenced by `/path`; run `npm run media:upload` to publish them and replace their links before deployment.
+
 Content is read on the server and included when pages are built. During development, refresh the page after editing content (restart the dev server if adding a new file is not detected). For production, rebuild and redeploy after changes. Files are not editable through the website.
 
 Deploy to any host that supports a standard Node.js Next.js application (for example Vercel or a Node server). The config includes content files in Next's output tracing. The project has no authentication; if you deploy it on a public host, it is public unless you configure access controls there.

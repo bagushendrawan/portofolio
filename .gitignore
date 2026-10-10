@@ -5,3 +5,13 @@ out/
 !.env.example
 *.tsbuildinfo
 .DS_Store
+/public/**/*.png
+/public/**/*.jpg
+/public/**/*.jpeg
+/public/**/*.gif
+/public/**/*.webp
+/public/**/*.avif
+/public/**/*.svg
+/public/**/*.mp4
+/public/**/*.webm
+/public/**/*.mov

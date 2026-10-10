@@ -220,7 +220,7 @@ export default function Portfolio({
       <header className="header">
         <div className="nav-wrap">
           <Link href="/" className="brand">
-            <img src="/icon.png" alt="Bagus monogram" />
+            <img src="https://bagus-s3-bucket-01.s3.ap-southeast-2.amazonaws.com/portfolio/icon.png" alt="Bagus monogram" />
             <span>
               bagus<span className="accent">.</span>
             </span>
@@ -297,7 +297,7 @@ export default function Portfolio({
               </div>
               <div className="hero-art">
                 <img
-                  src="/icon.png"
+                  src="https://bagus-s3-bucket-01.s3.ap-southeast-2.amazonaws.com/portfolio/icon.png"
                   alt="Bagus Hendrawan's orange B circuit monogram"
                 />
                 <div className="code-note">
@@ -666,7 +666,7 @@ export default function Portfolio({
                 </div>
                 <Social />
               </div>
-              <img src="/bagus-pic.jpeg" alt="Bagus B monogram" />
+              <img src="https://bagus-s3-bucket-01.s3.ap-southeast-2.amazonaws.com/portfolio/bagus-pic.jpeg" alt="Bagus B monogram" />
             </section>
             <section className="section about-story">
               <h2>

@@ -7,8 +7,8 @@ export const metadata: Metadata = {
   description:
     "AI engineering, data science, and full-stack development. Explore projects and learning notes by Bagus Hendrawan.",
   icons: {
-    icon: "/icon.png",
-    shortcut: "/icon.png",
+    icon: "https://bagus-s3-bucket-01.s3.ap-southeast-2.amazonaws.com/portfolio/icon.png",
+    shortcut: "https://bagus-s3-bucket-01.s3.ap-southeast-2.amazonaws.com/portfolio/icon.png",
   },
 };
 

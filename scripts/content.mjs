@@ -6,6 +6,12 @@ import { z } from "zod";
 const slug = z
   .string()
   .regex(/^[a-z0-9]+(?:-[a-z0-9]+)*$/, "Use a lowercase URL slug");
+const mediaPath = z.string().refine(
+  (value) =>
+    (value.startsWith("/") && !value.startsWith("//")) ||
+    (value.startsWith("https://") && z.string().url().safeParse(value).success),
+  "Use a local /path or an HTTPS URL",
+);
 const projectSchema = z.object({
   id: z.number().int().nonnegative(),
   slug,
@@ -15,10 +21,10 @@ const projectSchema = z.object({
   role: z.string().min(1),
   stack: z.array(z.string()).default([]),
   url: z.string().url().nullable().default(null),
-  image: z.string().startsWith("/").nullable().default(null),
+  image: mediaPath.nullable().default(null),
   imageAlt: z.string().default(""),
-  images: z.array(z.string().startsWith("/")).default([]),
-  videos: z.array(z.string().startsWith("/")).default([]),
+  images: z.array(mediaPath).default([]),
+  videos: z.array(mediaPath).default([]),
   details: z.array(z.string().min(1)).default([]),
   featured: z.boolean().default(false),
   order: z.number().default(0),
@@ -66,7 +72,7 @@ export async function loadContent(root = process.cwd()) {
     .array(
       z.object({
         name: z.string().min(1),
-        icon: z.string().startsWith("/"),
+        icon: mediaPath,
         showOnHome: z.boolean(),
       }),
     )
@@ -89,21 +95,24 @@ export async function loadContent(root = process.cwd()) {
   unique(projects, "project");
   unique(notes, "notebook");
   const stackNames = new Set(technologies.map((t) => t.name));
+  async function checkLocalMedia(value) {
+    if (value && value.startsWith("/"))
+      await fs.access(path.join(root, "public", value.slice(1)));
+  }
   for (const project of projects) {
     for (const name of project.stack)
       if (!stackNames.has(name))
         throw Error(
           `Unknown stack "${name}" in ${project.slug}; add it to content/technologies.json`,
         );
-    if (project.image)
-      await fs.access(path.join(root, "public", project.image));
+    await checkLocalMedia(project.image);
     for (const image of project.images)
-      await fs.access(path.join(root, "public", image));
+      await checkLocalMedia(image);
     for (const video of project.videos)
-      await fs.access(path.join(root, "public", video));
+      await checkLocalMedia(video);
   }
   for (const technology of technologies)
-    await fs.access(path.join(root, "public", technology.icon));
+    await checkLocalMedia(technology.icon);
   return {
     projects: projects
       .filter((p) => !p.draft)

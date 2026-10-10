@@ -7,18 +7,18 @@
   "role": "Fullstack Developer",
   "stack": ["Next.js", "Docker"],
   "url": "https://alrahmahinternational.org/",
-  "image": "/projects/ari/1.png",
+  "image": "https://bagus-s3-bucket-01.s3.ap-southeast-2.amazonaws.com/portfolio/projects/ari/1.png",
   "images": [
-    "/projects/ari/1.png",
-    "/projects/ari/2.jpg",
-    "/projects/ari/3.png",
-    "/projects/ari/4.png",
-    "/projects/ari/5.png",
-    "/projects/ari/6.png",
-    "/projects/ari/7.png",
-    "/projects/ari/8.png"
+    "https://bagus-s3-bucket-01.s3.ap-southeast-2.amazonaws.com/portfolio/projects/ari/1.png",
+    "https://bagus-s3-bucket-01.s3.ap-southeast-2.amazonaws.com/portfolio/projects/ari/2.jpg",
+    "https://bagus-s3-bucket-01.s3.ap-southeast-2.amazonaws.com/portfolio/projects/ari/3.png",
+    "https://bagus-s3-bucket-01.s3.ap-southeast-2.amazonaws.com/portfolio/projects/ari/4.png",
+    "https://bagus-s3-bucket-01.s3.ap-southeast-2.amazonaws.com/portfolio/projects/ari/5.png",
+    "https://bagus-s3-bucket-01.s3.ap-southeast-2.amazonaws.com/portfolio/projects/ari/6.png",
+    "https://bagus-s3-bucket-01.s3.ap-southeast-2.amazonaws.com/portfolio/projects/ari/7.png",
+    "https://bagus-s3-bucket-01.s3.ap-southeast-2.amazonaws.com/portfolio/projects/ari/8.png"
   ],
-  "videos": ["/projects/ari/ARI.mp4"],
+  "videos": ["https://bagus-s3-bucket-01.s3.ap-southeast-2.amazonaws.com/portfolio/projects/ari/ARI.mp4"],
   "imageAlt": "Al Rahmah International book marketplace homepage",
   "details": [
     "ARI is a welcoming digital marketplace for Al Rahmah International, presenting educational books and community-led collections through a clear, family-friendly shopping experience.",

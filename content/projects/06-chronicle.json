@@ -7,14 +7,14 @@
   "role": "Fullstack Developer",
   "stack": ["Next.js", "Docker"],
   "url": "https://chronicle.co.id/",
-  "image": "/projects/chronicle/firefox_DTCn5NTkQJ.png",
+  "image": "https://bagus-s3-bucket-01.s3.ap-southeast-2.amazonaws.com/portfolio/projects/chronicle/firefox_DTCn5NTkQJ.png",
   "images": [
-    "/projects/chronicle/firefox_DTCn5NTkQJ.png",
-    "/projects/chronicle/firefox_NfHZwkYfQ7.png",
-    "/projects/chronicle/firefox_tpsDWUNYiX.png",
-    "/projects/chronicle/firefox_zIOaMnyjqG.png"
+    "https://bagus-s3-bucket-01.s3.ap-southeast-2.amazonaws.com/portfolio/projects/chronicle/firefox_DTCn5NTkQJ.png",
+    "https://bagus-s3-bucket-01.s3.ap-southeast-2.amazonaws.com/portfolio/projects/chronicle/firefox_NfHZwkYfQ7.png",
+    "https://bagus-s3-bucket-01.s3.ap-southeast-2.amazonaws.com/portfolio/projects/chronicle/firefox_tpsDWUNYiX.png",
+    "https://bagus-s3-bucket-01.s3.ap-southeast-2.amazonaws.com/portfolio/projects/chronicle/firefox_zIOaMnyjqG.png"
   ],
-  "videos": ["/projects/chronicle/Chronicle.mp4"],
+  "videos": ["https://bagus-s3-bucket-01.s3.ap-southeast-2.amazonaws.com/portfolio/projects/chronicle/Chronicle.mp4"],
   "imageAlt": "Chronicle Coffee product collection page",
   "details": [
     "Chronicle is a refined online storefront for specialty coffee, designed to make its product range, origins, and tasting notes easy to explore.",

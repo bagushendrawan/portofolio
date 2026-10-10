@@ -1,57 +1,57 @@
 [
   {
     "name": "Python",
-    "icon": "/tech/python.svg",
+    "icon": "https://bagus-s3-bucket-01.s3.ap-southeast-2.amazonaws.com/portfolio/tech/python.svg",
     "showOnHome": true
   },
   {
     "name": "LLM",
-    "icon": "/tech/qwen.svg",
+    "icon": "https://bagus-s3-bucket-01.s3.ap-southeast-2.amazonaws.com/portfolio/tech/qwen.svg",
     "showOnHome": true
   },
   {
     "name": "LangChain",
-    "icon": "/tech/langchain.png",
+    "icon": "https://bagus-s3-bucket-01.s3.ap-southeast-2.amazonaws.com/portfolio/tech/langchain.png",
     "showOnHome": true
   },
   {
     "name": "LangGraph",
-    "icon": "/tech/langgraph.png",
+    "icon": "https://bagus-s3-bucket-01.s3.ap-southeast-2.amazonaws.com/portfolio/tech/langgraph.png",
     "showOnHome": true
   },
   {
     "name": "Qdrant",
-    "icon": "/tech/qdrant.png",
+    "icon": "https://bagus-s3-bucket-01.s3.ap-southeast-2.amazonaws.com/portfolio/tech/qdrant.png",
     "showOnHome": true
   },
   {
     "name": "PostgreSQL",
-    "icon": "/tech/postgresql.svg",
+    "icon": "https://bagus-s3-bucket-01.s3.ap-southeast-2.amazonaws.com/portfolio/tech/postgresql.svg",
     "showOnHome": true
   },
   {
     "name": "Elasticsearch",
-    "icon": "/tech/elasticsearch.svg",
+    "icon": "https://bagus-s3-bucket-01.s3.ap-southeast-2.amazonaws.com/portfolio/tech/elasticsearch.svg",
     "showOnHome": true
   },
   {
     "name": "Docker",
-    "icon": "/tech/docker.svg",
+    "icon": "https://bagus-s3-bucket-01.s3.ap-southeast-2.amazonaws.com/portfolio/tech/docker.svg",
     "showOnHome": true
   },
   {
     "name": "Next.js",
-    "icon": "/tech/nextdotjs.svg",
+    "icon": "https://bagus-s3-bucket-01.s3.ap-southeast-2.amazonaws.com/portfolio/tech/nextdotjs.svg",
     "showOnHome": true
   },
   {
     "name": "Kubernetes",
-    "icon": "/tech/kubernetes.svg",
+    "icon": "https://bagus-s3-bucket-01.s3.ap-southeast-2.amazonaws.com/portfolio/tech/kubernetes.svg",
     "showOnHome": true
   },
   {
     "name": "N8N",
-    "icon": "/tech/n8n.svg",
+    "icon": "https://bagus-s3-bucket-01.s3.ap-southeast-2.amazonaws.com/portfolio/tech/n8n.svg",
     "showOnHome": false
   }
 ]
