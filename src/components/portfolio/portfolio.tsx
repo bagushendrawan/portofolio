@@ -42,6 +42,7 @@ import type { Project, NotebookEntry, PortfolioView } from "@/types/content";
 import { Social } from "./social-links";
 import { SectionTitle } from "./section-title";
 import { Visual } from "./project-preview";
+import { ProjectGallery } from "./project-gallery";
 import { Education } from "./education";
 import { Experience } from "./experience";
 import { ThemeToggle } from "./theme-toggle";
@@ -264,7 +265,6 @@ export default function Portfolio({
           <>
             <section className="hero">
               <div className="hero-copy">
-                <p className="eyebrow">IDEAS. INTELLIGENCE. IMPACT.</p>
                 <h1>
                   Hi, I'm Bagus<span className="accent">.</span>
                   <br />
@@ -296,38 +296,38 @@ export default function Portfolio({
                 <Social />
               </div>
               <div className="hero-art">
-                <span className="art-index">BH / PERSONAL PORTFOLIO</span>
                 <img
                   src="/icon.png"
                   alt="Bagus Hendrawan's orange B circuit monogram"
                 />
                 <div className="code-note">
                   <span>
-                    <i /> building with purpose
+                    <i /> Engineering practical AI
                   </span>
-                  <code>
-                    <em>const</em> bagus = {"{"}
-                    <br />
-                    &nbsp; focus: <b>"AI Engineer"</b>,<br />
-                    &nbsp; mindset: <b>"always learning"</b>
-                    <br />
-                    {"}"};
-                  </code>
+                 <code>
+  <em>const</em> bagus = {"{"}
+  <br />
+  &nbsp; role: <b>"AI Engineer"</b>,<br />
+  &nbsp; focus: <b>"AI systems & applications"</b>
+  <br />
+  {"}"};
+</code>
                 </div>
-                <span className="art-caption">
-                  Human curiosity. Machine intelligence.
-                </span>
               </div>
             </section>
-            <section className="tech-section">
-              <p className="eyebrow">TECHNOLOGIES I WORK WITH</p>
-              <div className="tech-list">
-                {homeTechnologies.map((s) => (
-                  <div key={s}>
-                    <TechLogo name={s} />
-                    <span>{s}</span>
-                  </div>
-                ))}
+            <section className="tech-section" aria-label="Technologies I work with">
+              <div className="tech-marquee">
+                <div className="tech-list">
+                  {[0, 1].map((group) => (
+                    <div className="tech-marquee-group" key={group} aria-hidden={group === 1}>
+                      {homeTechnologies.map((s) => (
+                        <div key={s} role="img" aria-label={s}>
+                          <TechLogo name={s} />
+                        </div>
+                      ))}
+                    </div>
+                  ))}
+                </div>
               </div>
             </section>
             <section className="about-summary section">
@@ -376,8 +376,8 @@ export default function Portfolio({
             </section>
             <section className="section education-section">
               <SectionTitle
-                eyebrow="FOUNDATIONS & NEW PERSPECTIVES"
-                title="Always a student."
+                eyebrow="FOUNDATIONS & JOURNEYS"
+                title="Education Track Record"
               />
               <Education />
             </section>
@@ -437,7 +437,7 @@ export default function Portfolio({
                 <Visual key={slide} p={banner} large />
               </section>
             )}
-            <section className="section">
+            <section className="section !pb-8">
               <SectionTitle
                 eyebrow="PROJECT INDEX"
                 title="Explore the collection."
@@ -540,10 +540,7 @@ export default function Portfolio({
                 </div>
               )}
               {grid}
-              <p className="fine-print">
-                Project descriptions and concept previews are illustrative.
-                Detailed case studies are being prepared.
-              </p>
+             
             </section>
           </>
         )}
@@ -551,7 +548,6 @@ export default function Portfolio({
           <>
             <section className="page-intro notebook-intro">
               <div>
-                <p className="eyebrow">LEARN. BUILD. WRITE. REPEAT.</p>
                 <h1>
                   My Notebook<span className="accent">.</span>
                 </h1>
@@ -658,19 +654,19 @@ export default function Portfolio({
           <>
             <section className="about-hero page-intro">
               <div>
-                <p className="eyebrow">THE PERSON BEHIND THE PROJECTS</p>
+                <p className="eyebrow">THE PERSON RESPONSIBLE</p>
                 <h1>
                   Hi, I'm Bagus
                   <br />
                   Hendrawan<span className="accent">.</span>
                 </h1>
-                <p>AI Engineer. Builder. Lifelong learner.</p>
+                <p>AI Engineer. Builder. Learner.</p>
                 <div className="location">
                   <MapPin size={16} /> Petaling Jaya, Malaysia
                 </div>
                 <Social />
               </div>
-              <img src="/icon.png" alt="Bagus B monogram" />
+              <img src="/bagus-pic.jpeg" alt="Bagus B monogram" />
             </section>
             <section className="section about-story">
               <h2>
@@ -814,48 +810,40 @@ export default function Portfolio({
       <Dialog open={!!selected} onOpenChange={(v) => !v && setSelected(null)}>
         <DialogContent className="project-dialog">
           {selected && (
-            <>
-              <DialogTitle>{selected.name}</DialogTitle>
-              <DialogDescription>
-                {selected.affiliation} · {selected.role}
-              </DialogDescription>
-              <Visual p={selected} />
-              <p>{selected.desc}</p>
-              <div className="tags">
-                {selected.stack.map((s: string) => (
-                  <span key={s}>
-                    <TechLogo name={s} />
-                    {s}
-                  </span>
-                ))}
+            <div className="project-detail-layout">
+              <ProjectGallery key={selected.id} project={selected} />
+              <div className="project-detail-copy">
+                <div className="project-wordmark" aria-hidden="true">
+                  {selected.affiliation}
+                </div>
+                <DialogTitle>{selected.name}</DialogTitle>
+                <DialogDescription>
+                  {selected.role}
+                </DialogDescription>
+                <div className="project-details">
+                  {(selected.details.length ? selected.details : [selected.desc]).map((detail) => (
+                    <p key={detail}>{detail}</p>
+                  ))}
+                </div>
+                <div className="tags">
+                  {selected.stack.map((s: string) => (
+                    <span key={s}>
+                      <TechLogo name={s} />
+                      {s}
+                    </span>
+                  ))}
+                </div>
+                {selected.url ? (
+                  <a className="btn primary" href={selected.url} target="_blank" rel="noreferrer">
+                    Visit <ArrowUpRight size={17} />
+                  </a>
+                ) : (
+                  <a className="btn" href={"mailto:bagushendrawan01@gmail.com?subject=" + encodeURIComponent("Tell me about " + selected.name)}>
+                    Ask about this project <Mail size={17} />
+                  </a>
+                )}
               </div>
-              {selected.isPlaceholder && (
-                <p className="fine-print">
-                  Illustrative project summary. A full case study and project
-                  imagery will be added here.
-                </p>
-              )}
-              {selected.url ? (
-                <a
-                  className="btn primary"
-                  href={selected.url}
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  Visit website <ArrowUpRight size={17} />
-                </a>
-              ) : (
-                <a
-                  className="btn"
-                  href={
-                    "mailto:bagushendrawan01@gmail.com?subject=" +
-                    encodeURIComponent("Tell me about " + selected.name)
-                  }
-                >
-                  Ask about this project <Mail size={17} />
-                </a>
-              )}
-            </>
+            </div>
           )}
         </DialogContent>
       </Dialog>

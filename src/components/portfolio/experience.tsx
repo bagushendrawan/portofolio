@@ -39,22 +39,17 @@ export function Experience() {
       <div className="timeline">
         {[
           [
-            "Apr 2025 — Present",
+            "Aug 2024 — Present",
             "AI Engineer",
             "Ebdesk Malaysia Sdn Bhd",
-            "Building enterprise AI solutions across document intelligence, construction compliance, and election analysis. Working with multimodal extraction, RAG, and optimized LLM inference.",
+            "Designed and engineered AI powered solutions based on client’s problem statements and requirements.",
           ],
+         
           [
-            "Aug 2024 — Apr 2025",
-            "Data Analyst",
-            "Ebdesk Malaysia Sdn Bhd",
-            "Delivered 8+ dashboards, maps, and reports. Built data pipelines processing up to 150M raw records and applied statistical and geospatial analysis.",
-          ],
-          [
-            "Sep 2024 — Present",
+            "Mar 2024 — Present",
             "Freelance Web Developer",
             "Independent",
-            "Designed and delivered full-stack commercial websites, with SEO, deployment infrastructure, and production monitoring.",
+            "Designed and Engineered Fullstack web application based on client idea and needs",
           ],
         ].map(([date, role, company, body]) => (
           <div className="experience" key={role}>

@@ -5,7 +5,11 @@
   "desc": "Exploring conversational interfaces for political information.",
   "affiliation": "Ebdesk",
   "role": "AI Engineer",
-  "stack": ["Python", "Qwen", "Qdrant"],
+  "stack": [
+    "Python",
+    "LLM",
+    "Qdrant"
+  ],
   "url": null,
   "image": null,
   "imageAlt": "Political Avatar project preview",

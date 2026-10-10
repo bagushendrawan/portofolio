@@ -5,7 +5,11 @@
   "desc": "Separating speakers and structuring multi-speaker audio.",
   "affiliation": "Ebdesk",
   "role": "AI Engineer",
-  "stack": ["Python", "Qwen", "Qdrant"],
+  "stack": [
+    "Python",
+    "LLM",
+    "Qdrant"
+  ],
   "url": null,
   "image": null,
   "imageAlt": "Voice Diarization project preview",

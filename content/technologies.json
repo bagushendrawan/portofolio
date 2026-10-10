@@ -5,23 +5,23 @@
     "showOnHome": true
   },
   {
-    "name": "Qwen",
+    "name": "LLM",
     "icon": "/tech/qwen.svg",
     "showOnHome": true
   },
   {
     "name": "LangChain",
-    "icon": "/tech/langchain.svg",
+    "icon": "/tech/langchain.png",
     "showOnHome": true
   },
   {
     "name": "LangGraph",
-    "icon": "/tech/langgraph.svg",
+    "icon": "/tech/langgraph.png",
     "showOnHome": true
   },
   {
     "name": "Qdrant",
-    "icon": "/tech/qdrant.svg",
+    "icon": "/tech/qdrant.png",
     "showOnHome": true
   },
   {

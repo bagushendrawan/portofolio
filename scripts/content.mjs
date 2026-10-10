@@ -17,6 +17,9 @@ const projectSchema = z.object({
   url: z.string().url().nullable().default(null),
   image: z.string().startsWith("/").nullable().default(null),
   imageAlt: z.string().default(""),
+  images: z.array(z.string().startsWith("/")).default([]),
+  videos: z.array(z.string().startsWith("/")).default([]),
+  details: z.array(z.string().min(1)).default([]),
   featured: z.boolean().default(false),
   order: z.number().default(0),
   draft: z.boolean().default(false),
@@ -94,6 +97,10 @@ export async function loadContent(root = process.cwd()) {
         );
     if (project.image)
       await fs.access(path.join(root, "public", project.image));
+    for (const image of project.images)
+      await fs.access(path.join(root, "public", image));
+    for (const video of project.videos)
+      await fs.access(path.join(root, "public", video));
   }
   for (const technology of technologies)
     await fs.access(path.join(root, "public", technology.icon));

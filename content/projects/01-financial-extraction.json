@@ -1,16 +1,32 @@
 {
   "id": 0,
   "slug": "financial-extraction",
-  "name": "Financial Extraction",
+  "name": "Financial Report Analysis",
   "desc": "Turning complex financial documents into structured, actionable information.",
   "affiliation": "Ebdesk",
   "role": "AI Engineer",
-  "stack": ["Python", "Qwen", "Qdrant"],
+  "stack": [
+    "Python",
+    "LLM",
+    "Qdrant"
+  ],
   "url": null,
-  "image": null,
-  "imageAlt": "Financial Extraction project preview",
+  "image": "/projects/financial/1.png",
+  "images": [
+    "/projects/financial/1.png",
+    "/projects/financial/2.png",
+    "/projects/financial/3.png",
+    "/projects/financial/4.png",
+    "/projects/financial/5.png",
+    "/projects/financial/6.png"
+  ],
+  "details": [
+    "Financial Report Analysis turns dense annual reports and financial statements into structured information that is easier to inspect, compare, and use in downstream analysis.",
+    "It breaks key figures into clear charts and calculates an M-score index alongside financial highlights, helping teams spot trends and assess potential reporting risks without working through every page manually."
+  ],
+  "imageAlt": "Financial highlights extracted from an annual report",
   "featured": true,
   "order": 0,
   "draft": false,
-  "isPlaceholder": true
+  "isPlaceholder": false
 }

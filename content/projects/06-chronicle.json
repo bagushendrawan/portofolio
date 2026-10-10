@@ -7,10 +7,21 @@
   "role": "Fullstack Developer",
   "stack": ["Next.js", "Docker"],
   "url": "https://chronicle.co.id/",
-  "image": null,
-  "imageAlt": "Chronicle project preview",
+  "image": "/projects/chronicle/firefox_DTCn5NTkQJ.png",
+  "images": [
+    "/projects/chronicle/firefox_DTCn5NTkQJ.png",
+    "/projects/chronicle/firefox_NfHZwkYfQ7.png",
+    "/projects/chronicle/firefox_tpsDWUNYiX.png",
+    "/projects/chronicle/firefox_zIOaMnyjqG.png"
+  ],
+  "videos": ["/projects/chronicle/Chronicle.mp4"],
+  "imageAlt": "Chronicle Coffee product collection page",
+  "details": [
+    "Chronicle is a refined online storefront for specialty coffee, designed to make its product range, origins, and tasting notes easy to explore.",
+    "The experience balances bold product photography with clear purchasing details, helping customers move naturally from discovery to selecting a coffee."
+  ],
   "featured": false,
   "order": 5,
   "draft": false,
-  "isPlaceholder": true
+  "isPlaceholder": false
 }

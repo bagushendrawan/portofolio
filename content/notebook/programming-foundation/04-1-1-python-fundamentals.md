@@ -228,7 +228,7 @@ models.append("Mistral")
 Add multiple items:
 
 ```python
-models.extend(["Qwen","Claude"])
+models.extend(["LLM","Claude"])
 ```
 
 Remove and return an item:
@@ -444,7 +444,7 @@ else:
 Loop over a list:
 
 ```python
-models= ["GPT","Llama","Qwen"]
+models= ["GPT","Llama","LLM"]
 for model in models:
 	print(model)
 ```
@@ -504,7 +504,7 @@ for i, model in enumerate(models):
 ```
 
 ```python
-models = ["GPT", "Llama", "Qwen"]
+models = ["GPT", "Llama", "LLM"]
 scores = [0.95, 0.91, 0.89]
 
 for model, score in zip(models, scores):

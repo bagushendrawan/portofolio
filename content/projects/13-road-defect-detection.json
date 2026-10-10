@@ -5,7 +5,11 @@
   "desc": "Exploring automated identification of road surface defects.",
   "affiliation": "Ebdesk",
   "role": "AI Engineer",
-  "stack": ["Python", "Qwen", "Qdrant"],
+  "stack": [
+    "Python",
+    "LLM",
+    "Qdrant"
+  ],
   "url": null,
   "image": null,
   "imageAlt": "Road Defect Detection project preview",

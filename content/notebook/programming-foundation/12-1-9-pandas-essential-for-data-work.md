@@ -21,7 +21,7 @@ draft: false
   ```python
   df=pd.DataFrame(
   {
-  "name": ["GPT","Llama","Qwen"],
+  "name": ["GPT","Llama","LLM"],
   "score": [0.95,0.91,0.89]
   })
   ```
@@ -107,7 +107,7 @@ draft: false
   ```python
   df=pd.DataFrame(
   {
-  "name": ["GPT","Llama","Qwen"],
+  "name": ["GPT","Llama","LLM"],
   "score": [0.95,None,0.89]
   })
   ```

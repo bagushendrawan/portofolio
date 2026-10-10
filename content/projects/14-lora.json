@@ -5,7 +5,11 @@
   "desc": "Experimenting with efficient fine-tuning of large language models.",
   "affiliation": "Personal",
   "role": "AI Engineer",
-  "stack": ["Python", "Qwen", "Qdrant"],
+  "stack": [
+    "Python",
+    "LLM",
+    "Qdrant"
+  ],
   "url": null,
   "image": null,
   "imageAlt": "LoRA project preview",

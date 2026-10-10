@@ -10,6 +10,9 @@ export interface Project {
   url: string | null;
   image: string | null;
   imageAlt: string;
+  images: string[];
+  videos: string[];
+  details: string[];
   featured: boolean;
   order: number;
   draft: boolean;
